@@ -1,0 +1,43 @@
+<h1 class="page-title">Please leave details  below</h1>
+
+<div class="widget-container" style="height:690px">
+   
+    Email address: info@firstaccess.co.za
+    Contact number: 123 456 789
+
+    <form class="signup-form mt-lg" style="width:450px">
+        <div class="form-group">
+            <div [hidden]="true"
+                 class="alert alert-danger">
+                Please enter your name
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="Full name">
+        </div>       
+        <div class="form-group">
+            <div [hidden]="true"
+                 class="alert alert-danger">
+                Please enter email
+            </div>
+            <input class="form-control" id="password" type="text" placeholder="Email">
+        </div>     
+        <div class="form-group">
+            <div [hidden]="true"
+                 class="alert alert-danger">
+                Please enter phonenumber
+            </div>
+            <input class="form-control" id="password" type="text" placeholder="Phone number">
+        </div>        
+        <div class="form-group">
+            <div [hidden]="true"
+                 class="alert alert-danger">
+                Message
+            </div>
+            <textarea class="form-control" id="password" type="text" placeholder="Message"></textarea>
+        </div>
+        <div class="clearfix">
+            <div>
+                <button type="button" class="btn btn-primary" [routerLink]="['/app', 'dashboard'] ">Submit</button>
+            </div>
+        </div>
+        </form>
+</div>
