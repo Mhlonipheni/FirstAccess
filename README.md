@@ -1,4 +1,4 @@
-# Sing Dashboard App (3.2.0 Seed version) with Angular 2.0 Final Release support
+# First Access Website support
 
 
 > An Angular 2 application featuring [Angular 2](https://angular.io)
@@ -10,8 +10,7 @@
   [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), a
   nd [Webpack 2](http://webpack.github.io/) by [Flatlogic](http://flatlogic.com).
   
-> This is a seed version of Sing App with Angular Final Release support. Full version release date is set to October 2, 2016.
-Till then you can use a version of Sing App with Angular rc4 support available in seed and full versions.
+
 
 This seed repo serves as an Angular 2 starter for anyone looking to get up and running with Angular 2 and TypeScript fast.
  Using a [Webpack 2](http://webpack.github.io/) for building our files and assisting with boilerplate. 
@@ -63,7 +62,7 @@ to ensure maintainable code by encapsulation of our behavior logic. A component 
 app usually in a single file or a folder with each concern as a file: style, template, specs, e2e, and component class.
  Here's how it looks:
 ```
-sing/angular2-final-seed/
+firstaccess.web/
  ├──config/                    * our configuration
  |   ├──helpers.js             * helper functions for our configuration files
  │   ├──webpack.dev.js         * our development webpack config
@@ -193,10 +192,10 @@ import * as _ from 'lodash';
 # Support, Questions, or Feedback
 > Contact us anytime for anything about this Sing App or Angular 2 consulting.
 
-* [Twitter: @Flatlogic](https://twitter.com/Flatlogic)
-* [Email: contact@flatlogic.com](mailto:contact@flatlogic.com)
+* [Twitter: @Flatlogic](https://twitter.com/KarisaniIT)
+* [Email: contact@flatlogic.com](mailto:info@karisani.com)
 
 # License
 [Wrapbootstrap licence](http://support.wrapbootstrap.com/knowledge_base/topics/usage-licenses).
 
-Sing App 3.2.0 is based on [angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter).
+FirstAccess is based on [angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter).
