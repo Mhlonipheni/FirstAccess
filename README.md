@@ -28,7 +28,7 @@ This seed repo serves as an Angular 2 starter for anyone looking to get up and r
 
 ```bash
 # change directory to our repo
-cd sing/angular2-final-seed
+cd firstaccess
 
 # install the repo with npm
 npm install
